@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>task_5.stop_and_prevent_events</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="first_box1" class="box_one">
+        <div class="first_box2" class="box_one">
+          <div class="first_box3" class="box_one">
+
+          </div>
+        </div>
+      </div>
+
+      <a href="https://uk-ua.facebook.com/">
+        <button class="button">Go to Facebook</button>
+      </a>
+    </div>
+
+    <p>
+    stopPropagation() - зупиняє спливання подій на батьківські елементи незалежно від рівня вкладеності. У моєму прикладі є квадрат з 3-ма кольорами і при кліку на кожен із кольорів alert('CLICK!') буде виводитись лише по 1-му разу. 
+    </p>
+      
+    <p>
+    preventDefault() - запобігає поведінці браузера за замовчуванням. Наприклад, у мене є кнопка, яка є посиланням на фейсбук. При звичайних умовах перехід по лінку би відбувся, але preventDefault() не дозволить перейти на дане посилання. Однак, він не зупиняє спливання подій, як це робить stopPropagation(), тому alert('You Don't Have Permission to Access! Sorry =_(') виведеться 2 рази, так як button огорнута в батьківський клас 'container', для якого також виконується подія кліку.
+    </p>
+
+    <script type="text/javascript" src="script.js"></script>
+  </body> 
+</html>
