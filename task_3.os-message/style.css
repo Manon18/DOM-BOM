@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('http://www.wallpapers13.com/wp-content/uploads/2015/12/Nebulae-stars-red-beautiful-space-90832-915x515.jpg') no-repeat;
+  background-size: cover;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: url('http://www.wallpapers13.com/wp-content/uploads/2015/12/Nebulae-stars-red-beautiful-space-90832-915x515.jpg') no-repeat;
+  background-size: cover;
+}
+
+.container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  margin-top: 150px;
+}
+
+.download-message {
+  display: none;
+  font-size: 50px;
+  font-weight: 800;
+  color: #ffffff;
+}
+
+.download-message:hover {
+  color: #ff4000;
+  cursor: pointer;
+}
+
+p {
+  text-shadow: 1px 1px #ffffff;
+}
+
+p:hover {
+  text-shadow: 2px 2px #ffffff;
+}
+
+div[data-version="macos"] {
+  color: #ffcc99;
+}
+
+div[data-version="macos"]:hover {
+  color: #ff9966;
+}
+
+div[data-version="windows"] {
+  color: #ffe6e6;
+}
+
+div[data-version="windows"]:hover {
+  color: #ff6666;
+}
+
+div[data-version="linux"] {
+  color: #ffccdc;
+}
+
+div[data-version="linux"]:hover {
+  color: #ff4d85;
+}
+
+div[data-version="android"] {
+  color: #ffcccc;
+}
+
+div[data-version="android"]:hover {
+  color: #b3003b;
+}
