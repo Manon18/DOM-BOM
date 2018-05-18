@@ -3,7 +3,6 @@ var first_box2 = document.getElementsByClassName("first_box2")[0];
 var first_box3 = document.getElementsByClassName("first_box3")[0];
 var button = document.getElementsByClassName("button")[0];
 
-
 var onClickOne = function (e) {
   var $elOne = e.target;
   
