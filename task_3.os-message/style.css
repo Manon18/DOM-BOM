@@ -7,15 +7,6 @@ body {
   background: url('http://www.wallpapers13.com/wp-content/uploads/2015/12/Nebulae-stars-red-beautiful-space-90832-915x515.jpg') no-repeat;
   background-size: cover;
 }
-* {
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  background: url('http://www.wallpapers13.com/wp-content/uploads/2015/12/Nebulae-stars-red-beautiful-space-90832-915x515.jpg') no-repeat;
-  background-size: cover;
-}
 
 .container {
   display: flex;
