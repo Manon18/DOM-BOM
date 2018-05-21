@@ -13,6 +13,28 @@ body {
   width: 100%;
 }
 
+.button_back {
+  width: 180px;
+  height: 50px;
+  outline: none;
+  border: none;
+  margin-top: 50px;
+  margin-left: 50px;
+  background-color: #006666;
+  box-shadow: 0 1px 30px 0 #00cccc;
+  border-radius: 7px;
+  color: #ffffff;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+.button_back:hover {
+  box-shadow: 0 1px 40px 0 #00cccc;
+  background-color: #004d4d;
+  font-size: 27px;
+  cursor: pointer;
+}
+
 .center_container {
   width: 20%;
   margin: 0 auto;
@@ -46,9 +68,11 @@ input[type="submit"] {
   border-radius: 7px;
   opacity: 1;
   font-weight: 700;
+  cursor: pointer;
 }
 
 input[type="submit"]:hover {
   background-color: #004d4d;
   opacity: 1;
+  cursor: pointer;
 }
