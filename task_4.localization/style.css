@@ -9,11 +9,38 @@ body {
   background-size: cover;
   font-size: 30px;
   color: #001a33;
+}
+
+a {
+  margin-left: 50px;
+}
+
+#back_button {
+  margin-top: 50px;
+  width: 180px;
+  height: 50px;
+  border: none;
+  cursor: pointer;
+  font-size: 25px;
+  background-color: #009999;
+  box-shadow: 0 1px 30px 0 #003333;
+  border-radius: 7px;
+  color: #ffffff;
+  outline: none;
+}
+
+#back_button:hover {
+  background-color: #006666;
+  font-size: 27px;
+  cursor: pointer;
+  box-shadow: 0 1px 40px 0 #003333;
+}
+
+.container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 30px;
 }
 
 .lang {
@@ -37,9 +64,11 @@ body {
   box-shadow: 0 1px 30px 0 #003333;
   margin-top: 20px;
   font-weight: 500;
-
 }
 
 #save:hover {
+  background-color: #006666;
   box-shadow: 0 1px 40px 0 #001a1a;
+  cursor: pointer;
+  font-size: 26px;
 }
