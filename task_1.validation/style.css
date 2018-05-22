@@ -13,13 +13,16 @@ body {
   width: 100%;
 }
 
+a {
+  margin-left: 50px;
+}
+
 .button_back {
   width: 180px;
   height: 50px;
   outline: none;
   border: none;
   margin-top: 50px;
-  margin-left: 50px;
   background-color: #006666;
   box-shadow: 0 1px 30px 0 #00cccc;
   border-radius: 7px;
