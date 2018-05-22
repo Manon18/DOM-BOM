@@ -9,12 +9,37 @@ body {
   background-repeat: no-repeat;
 }
 
+a {
+  margin-left: 50px;
+}
+
+#back_button {
+  margin-top: 50px;
+  width: 180px;
+  height: 50px;
+  outline: none;
+  border: none;
+  background-color: #ff66cc;
+  box-shadow: 0 1px 30px 0 #ffffff;
+  border-radius: 7px;
+  font-size: 25px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#back_button:hover {
+  background: #cc0088;
+  box-shadow: 0 1px 40px 0 #ffffff;
+  font-size: 27px;
+  cursor: pointer;
+}
+
 .container {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  margin-top: 150px;
+  margin-top: 70px;
 }
 
 .first_box1 {
